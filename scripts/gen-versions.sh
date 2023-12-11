@@ -1,0 +1,1 @@
+echo "{\"commits\": \"`git rev-list --count --all`\"}" > ./version.json
