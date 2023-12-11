@@ -1,4 +1,4 @@
-# GITS (Ghosts In The Shell): 前端驱动的多 Agent Workflow 框架
+# Open Agent UI: 前端驱动的多 Agent Workflow 框架
 
 ## Overview
 
@@ -26,8 +26,6 @@
 
 ## Todo
 
-- [ ] :rocket: Thread
-
 - [ ] 使用 layout 统一 `RootLayout` 和 `RunnerLayout`
 
 - [ ] `prisma-json-types-generator` type reference
@@ -35,6 +33,8 @@
   - 目前不支持使用 `PrismaJson.xxx`，无论文件写成 `xx.ts` 还是 `xx.d.ts`
 
 - [ ] fix `new nodeTypes`, ref: https://github.com/xyflow/xyflow/issues/3243
+
+- [x] :rocket: Thread （1208✅）
 
 - [x] `@monaco-editor/react` 需要连上 clash 才可以装，不确定后续 docker 部署的时候会不会有问题。。
   - review: 没问题
